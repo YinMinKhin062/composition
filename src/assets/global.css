@@ -1,0 +1,44 @@
+.auth_Container {
+	max-width: 500px;
+	background-color: lightcyan;
+	margin: auto;
+	/* z-index: 9; */
+	position: fixed;
+	right: 2rem;
+}
+
+.auth_Container h3 {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.auth_Container hr {
+	width: 95%;
+	margin-bottom: 0 2rem 1.5rem 1.5rem;
+}
+.form {
+	margin-left: 1.5rem;
+}
+
+.form-item {
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+.form-item input,
+button {
+	width: 95%;
+	border-radius: 0.5rem;
+	padding: 10px;
+}
+
+.form-item input {
+	outline: none;
+	border: none;
+}
+
+.form-item .fa-regular {
+	position: absolute;
+	top: 7px;
+	left: 175px;
+	cursor: pointer;
+}
